@@ -14,8 +14,8 @@
         <threadCount>3</threadCount>
         <rampupInSeconds>10</rampupInSeconds>
         <durationInSeconds>60</durationInSeconds>
-        <initialMemoryForJVM>1024</initialMemoryForJVM>
-        <maximumMemoryForJVM>2048</maximumMemoryForJVM>
+        <initialMemoryForJVM>512</initialMemoryForJVM>
+        <maximumMemoryForJVM>1024</maximumMemoryForJVM>
         <jmeterMaven.version>2.8.5</jmeterMaven.version>
     </properties>
 
