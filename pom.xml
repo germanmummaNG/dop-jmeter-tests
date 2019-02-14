@@ -42,6 +42,8 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <resultsFileFormat>xml</resultsFileFormat>
+                    <generateReports>false</generateReports>
                     <propertiesUser>
                         <threads>${threadCount}</threads>
                         <rampup>${rampupInSeconds}</rampup>
