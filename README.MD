@@ -4,10 +4,13 @@ Apache JMeter performance tests. Project uses **jmeter-maven-plugin**, you can f
 examples etc on the [project's GitHub](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin/wiki).
 
 ## Getting Started
-Specify required performance test attributes in the POM.xml properties section:
-* threadCount: how many users will be creating the load
-* rampupInSeconds: how in how many seconds the required number of users (threadCount) will be reached
-* durationInSeconds: how long the test will be carried out.
+Specify required performance test attributes using mvn properties:
+* **threadCount**: how many users will be creating the load
+* **rampupInSeconds**: how in how many seconds the required number of users (threadCount) will be reached
+* **durationInSeconds**: how long the test will be carried out.
+
+For example, to setup a test plan
+
 For more info on how JMeter tests are setup please refer to JMeter learning materials 
 under Prerequisites.
 

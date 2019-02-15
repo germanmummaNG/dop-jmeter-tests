@@ -42,7 +42,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <ignoreResultFailures>true</ignoreResultFailures>
+                    <errorRateThresholdInPercent>5</errorRateThresholdInPercent>
                     <resultsFileFormat>xml</resultsFileFormat>
                     <generateReports>false</generateReports>
                     <propertiesUser>
