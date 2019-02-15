@@ -42,6 +42,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <ignoreResultFailures>true</ignoreResultFailures>
                     <resultsFileFormat>xml</resultsFileFormat>
                     <generateReports>false</generateReports>
                     <propertiesUser>
