@@ -27,25 +27,25 @@ For Continuous Testing you should setup a build in CI system. For Jenkins, follo
 1. Select New Item
 2. Enter a project name and select Maven project (might need to install the plugin if this option is missing) 
 3. **Source Code Management** setup
-<img src="src/test/resources/readme/images/scm_setup.png" width="1000" alt="SCM setup"/>
+<img src="src/test/resources/readme/images/scm_setup.png" width="1200" alt="SCM setup"/>
 
 4. **Build Triggers** setup to run tests every day at *somewhere around 2 AM* ([here's why](https://stackoverflow.com/questions/26383778/spread-load-evenly-by-using-h-rather-than-5)).
 
-<img src="src/test/resources/readme/images/build_triggers_setup.png" width="1000" alt="Build Triggers setup"/>
+<img src="src/test/resources/readme/images/build_triggers_setup.png" width="1200" alt="Build Triggers setup"/>
 
 5. **Build** setup
-<img src="src/test/resources/readme/images/build_setup.png" width="1000" alt="Build setup"/>
+<img src="src/test/resources/readme/images/build_setup.png" width="1200" alt="Build setup"/>
 
 6. Press Add post-build action
 7. **Post-build Actions** setup for performance report generation
-<img src="src/test/resources/readme/images/post_build_actions_setup.png" width="1000" alt="Post-build Action setup"/>
+<img src="src/test/resources/readme/images/post_build_actions_setup.png" width="1200" alt="Post-build Action setup"/>
 
 8. Save
 
 The setup is complete. Now press **Build Now**. After first run the Performance plugin graphs don't show anything interesting.
 This is because it requires at least 2 sets of data, meaning at least 2 build executions. After second run the graphs will show data.
 
-<img src="src/test/resources/readme/images/performance_plugin_results.png" width="1000" alt="Performance Plugin results" />
+<img src="src/test/resources/readme/images/performance_plugin_results.png" width="1200" alt="Performance Plugin results" />
 
 
 ## Running tests in TFS (TODO)
