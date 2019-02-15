@@ -10,11 +10,11 @@ Specify required performance test attributes using mvn properties:
 * **durationInSeconds**: how long the test will be carried out.
 
 For example, to setup a test plan with the following configuration:
-> Ten users visit the site in 60 seconds and stay there for 5 minutes.
+> Ten users visit the site in 60 seconds and stay there for 5 minutes doing searches and opening portfolios.
 
 The appropriate setup in Jenkins would look like this:
 
-<img src="src/test/resources/readme/images/specific_build_setup.png" width="869" alt="SCM setup"/>
+<img src="src/test/resources/readme/images/specific_build_setup.png" width="807" alt="SCM setup"/>
 
 <br />
 For more info on how JMeter tests are setup please refer to JMeter learning materials 
